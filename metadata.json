@@ -1,0 +1,6 @@
+{
+  "name": "Mika Games",
+  "description": "Mika Games - Premier betting & gaming aggregator platform for the Ethiopian market featuring single-API game providers, multi-level agent commission hierarchy, live casino, slots, crash games, and sports betting.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

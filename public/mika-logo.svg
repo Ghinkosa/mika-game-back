@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%" fill="none">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#030712"/>
+      <stop offset="100%" stopColor="#0B1329"/>
+    </linearGradient>
+    <linearGradient id="mikaCyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#38BDF8"/>
+      <stop offset="100%" stopColor="#0284C7"/>
+    </linearGradient>
+    <linearGradient id="mikaWhite" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#FFFFFF"/>
+      <stop offset="100%" stopColor="#CBD5E1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="500" height="500" rx="36" fill="url(#bgGrad)"/>
+  <rect width="496" height="496" x="2" y="2" rx="34" stroke="#1E293B" stroke-width="2"/>
+
+  <!-- Flowing Aviator Cape/Slipstream -->
+  <path d="M 70 230 C 110 180 180 230 270 205 C 190 235 120 250 70 230 Z" fill="url(#mikaCyan)"/>
+  <path d="M 85 245 C 130 215 210 240 295 210 C 210 255 140 270 85 245 Z" fill="#38BDF8" opacity="0.8"/>
+
+  <!-- Propeller Blur -->
+  <ellipse cx="380" cy="155" rx="30" ry="30" stroke="#38BDF8" stroke-width="6" opacity="0.85"/>
+  <circle cx="380" cy="155" r="9" fill="#FFFFFF"/>
+  <path d="M 380 120 L 380 190" stroke="#38BDF8" stroke-width="5" stroke-linecap="round"/>
+  <path d="M 355 135 L 405 175" stroke="#38BDF8" stroke-width="4" stroke-linecap="round" opacity="0.7"/>
+
+  <!-- Airplane Fuselage & Wings -->
+  <path d="M 380 155 L 245 225 L 230 255 L 335 200 Z" fill="url(#mikaCyan)"/>
+  <path d="M 230 210 L 330 215 L 420 180 L 325 195 Z" fill="#0284C7"/>
+  <path d="M 230 210 L 325 195 L 415 175 L 335 190 Z" fill="#38BDF8"/>
+  <path d="M 270 260 L 260 295 L 295 275 Z" fill="#38BDF8"/>
+  <path d="M 240 310 L 350 260" stroke="#38BDF8" stroke-width="4.5" stroke-linecap="round" opacity="0.7"/>
+
+  <!-- Aviator Pilot -->
+  <circle cx="180" cy="175" r="62" fill="url(#mikaCyan)"/>
+  <rect x="130" cy="155" width="26" height="48" rx="13" fill="#0F172A" stroke="#38BDF8" stroke-width="5"/>
+  <circle cx="143" cy="179" r="6" fill="#38BDF8"/>
+  
+  <!-- Pilot Goggles -->
+  <path d="M 155 150 Q 200 142 230 160 Q 205 180 160 172 Z" fill="#0F172A" stroke="#FFFFFF" stroke-width="7"/>
+  <path d="M 165 154 Q 198 148 220 162 Q 202 172 170 168 Z" fill="#38BDF8"/>
+  <path d="M 172 156 L 186 166" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Chin mask -->
+  <path d="M 170 198 C 180 218 206 218 218 198 C 210 190 180 190 170 198 Z" fill="#38BDF8"/>
+
+  <!-- Typography: MIKA -->
+  <g font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-style="italic" font-size="82" letter-spacing="-2">
+    <text x="80" y="380" fill="url(#mikaWhite)">MIK</text>
+    <text x="290" y="380" fill="url(#mikaCyan)">A</text>
+  </g>
+
+  <!-- Subtitle: — GAMES — -->
+  <line x1="80" y1="412" x2="160" y2="412" stroke="#38BDF8" stroke-width="4"/>
+  <text x="250" y="420" fill="#38BDF8" font-family="monospace, sans-serif" font-weight="900" font-size="28" letter-spacing="12" text-anchor="middle">GAMES</text>
+  <line x1="340" y1="412" x2="420" y2="412" stroke="#38BDF8" stroke-width="4"/>
+
+  <!-- Tagline: PLAY • BET • WIN -->
+  <text x="250" y="460" fill="#E2E8F0" font-family="monospace, sans-serif" font-weight="700" font-size="16" letter-spacing="10" text-anchor="middle">PLAY • BET • WIN</text>
+</svg>
